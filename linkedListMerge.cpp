@@ -19,9 +19,7 @@
 #include <stack>
 #include <iomanip>
 #include <fstream>
- 
 using namespace std;
- 
 typedef long long ll;
 typedef long double ld;
 typedef pair<int,int> p32;
@@ -117,5 +115,6 @@ int main()
  traverse(linkedListA);
  traverse(linkedListB);
  Node* mergedLinkedList = merge(linkedListA,linkedListB);
+ cout<<"The linked list after merging is : "<<endl;
  traverse(mergedLinkedList);
 }
